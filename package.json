@@ -1,0 +1,29 @@
+{
+  "name": "electron-tracking",
+  "version": "0.1.8",
+  "description": "A simple shipment track app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "demo"
+  ],
+  "author": "Leonardo Toniolo",
+  "license": "MIT",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "electron": "^3.0.4",
+    "electron-reload": "^1.2.5",
+    "electron-store": "^2.0.0",
+    "node-notifier": "^7.0.1",
+    "spectre.css": "^0.5.3",
+    "tracking-correios": "^1.2.2"
+  }
+}

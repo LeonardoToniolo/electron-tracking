@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Add Todo</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column col-10">
+                <h1 class="text-center">Add shipment</h1>
+
+                <form id="shipmentForm">
+                    <div class="form-group">
+                        <label class="form-label" for="add-input-name">Title</label>
+                        <input class="form-input" type="text" id="add-input-name" name="add-input-name">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="add-input">Tracking number</label>
+                        <input class="form-input" id="add-input" name="add-input" type="text">
+                    </div>
+
+                    <button class="btn">Add shipment</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/add.js"></script>
+</body>
+
+</html>

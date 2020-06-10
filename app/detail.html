@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Detail Todo</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="columns">
+        <div class="column col-10">
+          <h1 class="text-center" id="name"></h1>
+          <button id="removeTrackingBtn" type="button" class="btn">
+            Delete this Todo
+          </button>
+          <p id="status"></p>
+          <ul id="trackingList"></ul>
+          <p id="itemTimeLength"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/detail.js"></script>
+  </body>
+
+</html>
